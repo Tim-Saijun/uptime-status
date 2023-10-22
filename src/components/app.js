@@ -23,8 +23,8 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>基于 <Link to='https://uptimerobot.com/' text='UptimeRobot' /> 接口制作，检测频率 5 分钟</p>
-          <p>&copy; 2020 <Link to='https://status.org.cn/' text='STATUS.ORG.CN' />, Version {Package.version}</p>
+          <p>检测频率 5 分钟，如果网站状态正常，而您无法访问，请检查您的网络代理</p>
+          <p>&copy; 2023 <Link to='https://www.zair.top/' text='以太工坊' />, Version {Package.version}</p>
         </div>
       </div>
     </>
