@@ -6,11 +6,11 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur2344984-3c7cb270c8c517cdc6c8decb',
+    'ur2344984-bea776086e70951ff0a25876',
   ],
 
   // 日志天数
-  CountDays: 90,
+  CountDays: 30,
 
   // 是否显示检测站点的链接
   ShowLink: false,
@@ -32,10 +32,6 @@ window.Config = {
     {
       text: 'Alist文件服务',
       url: 'https://alist.zair.top/'
-    },
-    {
-      text: 'CDN服务',
-      url: 'https://cdn.saijun.eu.org/'
     },
   ],
 };
