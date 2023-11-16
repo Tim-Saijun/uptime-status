@@ -161,6 +161,36 @@ a {
   }
 }
 
+#text-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 15px 30px 15px 30px;
+  overflow: hidden;
+  .p {
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+  }
+  .ul {
+    margin-bottom: 15px;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  .site {
+    border-bottom: 1px solid #e6e7e8;
+    margin: 0 30px;
+    padding: 25px 0;
+    font-size: 16px;
+    line-height: 205px;
+  }
+  .site:last-child {
+    border-bottom: none;
+  }
+}
+
 #footer {
   font-size: 12px;
   text-align: center;
