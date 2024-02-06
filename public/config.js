@@ -10,28 +10,28 @@ window.Config = {
   ],
 
   // 日志天数
-  CountDays: 30,
+  CountDays: 60,
 
   // 是否显示检测站点的链接
-  ShowLink: false,
+  ShowLink: true,
 
   // 导航栏菜单
   Navi: [
     {
-      text: '导航页面',
-      url: 'https://nv.zair.top/'
+      text: '导航',
+      url: 'https://zair.top/'
     },
     {
-      text: '博客站首页',
+      text: '博客',
       url: 'https://www.zair.top/'
     },
 	{
-      text: '极简版博客',
-      url: 'https://s.zair.top/'
+      text: '监控',
+      url: 'https://nezha.tim-run.eu.org/'
     },
     {
-      text: 'Alist文件服务',
-      url: 'https://alist.zair.top/'
+      text: '记录',
+      url: 'https://rss.uptimerobot.com/u2344984-b51264a6adbb1b5d110dbd5e09fa05b0'
     },
   ],
 };
